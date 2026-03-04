@@ -12,6 +12,9 @@ export default defineConfig({
         github: 'https://github.com/mikechavez/context-loops',
       },
       customCss: ['./src/styles/custom.css'],
+      components: {
+        Head: './src/components/Head.astro',
+      },
       head: [
         {
           tag: 'link',
