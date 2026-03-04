@@ -1,0 +1,43 @@
+/* Context Loops — Custom Styles */
+
+:root {
+  --sl-font: 'system-ui', '-apple-system', 'Segoe UI', sans-serif;
+  --sl-font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+  --sl-color-accent-low: #1a2332;
+  --sl-color-accent: #4ade80;
+  --sl-color-accent-high: #bbf7d0;
+}
+
+/* Slightly larger body text for readability */
+.sl-markdown-content {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* Soften heading weight */
+.sl-markdown-content h2 {
+  font-weight: 600;
+  margin-top: 2.5rem;
+}
+
+.sl-markdown-content h3 {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* Code blocks */
+.sl-markdown-content code {
+  font-size: 0.9em;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+/* Tables — less cramped */
+.sl-markdown-content table {
+  margin: 1.5rem 0;
+}
+
+.sl-markdown-content th,
+.sl-markdown-content td {
+  padding: 0.6rem 1rem;
+}
