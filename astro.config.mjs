@@ -7,9 +7,9 @@ export default defineConfig({
     react(),
     starlight({
       title: 'Context Loops',
-      description: 'A file-based sprint system for working with AI agents without losing context.',
+      description: 'Your AI forgets everything between conversations. Context Loops gives it persistent memory — three files and a simple loop that keep every session informed, whether you use Claude, ChatGPT, Cursor, or any other AI tool.',
       social: {
-        github: 'https://github.com/mikechavez/context-loops',
+        github: 'https://github.com/mikechavez/context-loops-framework',
       },
       customCss: ['./src/styles/custom.css'],
       components: {
@@ -47,13 +47,13 @@ export default defineConfig({
           ],
         },
         {
-          label: 'First Session',
+          label: 'Quick Start',
           items: [
-            { label: 'Run Your First Session', slug: 'first-session' },
+            { label: 'Quick Start', slug: 'first-session' },
           ],
         },
         {
-          label: 'Go Deeper',
+          label: 'Context Engineering',
           items: [
             { label: 'The Problem', slug: 'go-deeper/the-problem' },
             { label: 'Tickets', slug: 'go-deeper/tickets' },

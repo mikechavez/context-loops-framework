@@ -1,5 +1,5 @@
 ---
-title: Run Your First Session
+title: Quick Start
 description: Go from zero to your first AI-assisted session in 10 minutes.
 ---
 
@@ -25,7 +25,7 @@ your-project/
 
 That's your entire infrastructure. Three files and a folder.
 
-You can download blank templates from the [GitHub repo](https://github.com/mikechavez/context-loops/tree/main/templates), or generate them from scratch in the next step.
+You can download blank templates from the [GitHub repo](https://github.com/mikechavez/context-loops-framework/tree/main/templates), or generate them from scratch in the next step.
 
 ## Step 1 — Plan with your AI
 
@@ -127,7 +127,7 @@ The planning agent creates the ticket, shifts the queue, and updates your files.
 
 **Keep going.** Run 2-3 more sessions with this loop. You'll start to feel it: sessions begin faster, the AI gives better suggestions, and you stop losing work to disappeared chat threads.
 
-**When you're ready**, explore the deeper patterns:
+**When you're ready**, explore the Context Engineering guides:
 
 - [**Tickets**](/go-deeper/tickets/) — When to create them, how to keep them small, why scope discipline changes everything
 - [**ADRs**](/go-deeper/adrs/) — How to record decisions so your AI (and future you) never relitigates them

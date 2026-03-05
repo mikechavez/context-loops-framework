@@ -1,8 +1,8 @@
 # Context Loops
 
-**A file-based sprint system for working with AI agents without losing context.**
+**Your AI forgets everything between conversations. Context Loops gives it persistent memory.**
 
-Works with Claude, ChatGPT, Claude Code, Cursor, Codex, Windsurf, Copilot — any AI tool you use.
+Three files and a simple loop that keep every session informed, whether you use Claude, ChatGPT, Cursor, or any other AI tool.
 
 ## The idea
 
@@ -25,7 +25,7 @@ Context lives in files, not in chat history.
 4. Let the AI fill them in for you
 5. Start building
 
-See the full walkthrough: **[Run Your First Session →](https://context-loops.vercel.app/first-session/)**
+See the full walkthrough: **[Quick Start →](https://context-loops.vercel.app/first-session/)**
 
 ## Templates
 
@@ -66,8 +66,8 @@ Copy `templates/session-contract.md` into your agent's config file:
 ## Learn more
 
 - [Context Loops](https://context-loops.vercel.app/) — How the system works
-- [Run Your First Session](https://context-loops.vercel.app/first-session/) — 10-minute walkthrough
-- [Go Deeper](https://context-loops.vercel.app/go-deeper/the-problem/) — Tickets, ADRs, sessions, sprints, model selection, real examples
+- [Quick Start](https://context-loops.vercel.app/first-session/) — 10-minute walkthrough
+- [Context Engineering](https://context-loops.vercel.app/go-deeper/the-problem/) — Tickets, ADRs, sessions, sprints, model selection, real examples
 
 ## Origin
 
