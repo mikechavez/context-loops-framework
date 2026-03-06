@@ -77,16 +77,17 @@ See [Design Philosophy](/docs/go-deeper/design-philosophy/) for the five core ru
 Each coding agent has its own config file, but the instructions are the same. Here's a session contract you can paste into your agent's config to set expectations from the start.
 
 **Claude Code** → `CLAUDE.md` in your project root
-**Cursor** → `.cursorrules` in your project root
-**Windsurf** → `.windsurfrules` in your project root
+**Cursor** → `.cursorrules` (or `.cursor/rules/*.mdc` for rule-specific files)
+**Windsurf** → `.windsurfrules` (or `.windsurf/rules/*.md` for rule-specific files)
 **Copilot** → `.github/copilot-instructions.md` in your project root
+**Codex** → `AGENTS.md` in your project root
 
 ```markdown
 ## AI Workflow — Session Contract
 
 ### Session Start
-1. Read `.ai-workflow/session-start.md` to understand current state
-2. Read `.ai-workflow/current-sprint.md` for full sprint context
+1. Read `ai-workflow/session-start.md` to understand current state
+2. Read `ai-workflow/current-sprint.md` for full sprint context
 3. Read the ticket file referenced as next priority in session-start
 4. Confirm understanding of the ticket before beginning work
 
@@ -99,15 +100,15 @@ Each coding agent has its own config file, but the instructions are the same. He
 
 ### Session End
 - Update the ticket status (complete / in progress / blocked)
-- Update `.ai-workflow/session-start.md`:
+- Update `ai-workflow/session-start.md`:
   - Move completed work to "Recently Completed"
   - Set the next priority
   - Note any new blockers or bugs discovered
-- Update `.ai-workflow/current-sprint.md` with changed ticket statuses
+- Update `ai-workflow/current-sprint.md` with changed ticket statuses
 - All context file updates should be committed alongside code changes
 
 ### Architecture Decisions
-- Check `docs/adr/` before proposing approaches that may already be decided
+- Check `adrs/` before proposing approaches that may already be decided
 - If a decision affects system structure, data models, or infrastructure, flag it
 - Do not make architectural changes without explicit approval
 ```

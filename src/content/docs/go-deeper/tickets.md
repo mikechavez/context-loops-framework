@@ -11,7 +11,7 @@ Create a new ticket when:
 - **A bug shows up while you're working on something else.** Stop. File it. Decide whether it blocks the current work or goes to backlog. Don't fix it inline and forget to document it.
 - **Scope creeps during implementation.** The moment you think "while I'm in here, I should also..." — that's a new ticket.
 
-Tickets are how future-you and your agent know what was done and why. An undocumented change is cognitive debt by definition. You built something you can't trace.
+Tickets are how future-you and your agent know what was done and why. An undocumented change can lead to [cognitive debt](/docs/go-deeper/the-problem).
 
 ## When to expand an existing ticket
 
