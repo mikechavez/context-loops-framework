@@ -49,17 +49,23 @@ You have cognitive debt if:
 
 - **Your costs spiraled before you noticed.** API bills, infrastructure costs, or token usage grew without you understanding what was driving them.
 
-If three or more of these feel familiar, [the loop](/) is designed to fix exactly this.
+If any of this sounds familiar, Context Loops is your solution — and you can start addressing it today. → [**Run Your First Session**](/first-session/)
 
 ## What it actually costs
 
-These aren't hypothetical. They come from building [Backdrop](https://open.substack.com/pub/earlysignalx/p/ai-lets-you-build-faster-than-you), a crypto intelligence platform built over six months with AI coding agents:
+These aren't hypothetical. They come from building [Backdrop](https://backdropxyz.vercel.app/), a crypto intelligence platform built over six months with AI coding agents:
 
 - An AI agent committed database credentials to a public GitHub repo. No warning, no flag, no hesitation.
 - A core feature was broken for three days before anyone noticed — not because testing was bad, but because the builder didn't understand the system well enough to know it should have been working.
 - API costs hit $100+/month before cost tracking was implemented, then dropped to under $10/month with the same functionality.
 - Narrative matching accuracy started at 67% and reached 90% — not through better models, but through better understanding of what the system was actually doing.
 
-The fix wasn't better prompting. It was building a simple discipline around the tools: context that carries between sessions, decisions that get recorded, and a loop that keeps you informed as you build.
+## The fix
 
-That's what this system does.
+The fix isn't better prompting. It's context engineering.
+
+It starts with a simple loop that records everything around your work with AI — carried from session to session — so you build a rich history not just of what you did and when you did it, but how and why you did it. Traditional ways of keeping track of your work won't cut it when your AI partner forgets everything the moment a session ends.
+
+Context Loops gives you a system that makes every AI session start informed and end clean — so nothing important lives only in a chat thread that will disappear.
+
+→ [**Start your first session**](/first-session/)
