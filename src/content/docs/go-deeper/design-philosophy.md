@@ -3,7 +3,7 @@ title: Design Philosophy
 description: The design decisions behind Context Loops — what holds the system together and why it works across tools.
 ---
 
-These are the design decisions behind Context Loops — what holds the system together and why it works across tools.
+Context Loops works the same way whether you're using Claude Code, Cursor, Codex, or whatever ships next month. This page covers the rules and constraints that make that possible.
 
 ---
 

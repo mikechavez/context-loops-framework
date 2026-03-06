@@ -3,6 +3,8 @@ title: Sprints
 description: Goal-bounded sprints, mid-sprint flexibility, and how to transition cleanly.
 ---
 
+A sprint is a batch of tickets organized around a single goal — ship the MVP, fix the auth flow, launch the site. It's the document that tells you and your agent what you're working toward and what's left. If tickets are individual tasks, the sprint is the plan that orders them.
+
 ## Sprints are goal-bounded, not time-bounded
 
 A sprint lasts as long as it needs to. The boundary is the goal, not a calendar date.

@@ -3,6 +3,8 @@ title: Architecture Decision Records
 description: When to write an ADR, when not to, and why they matter more when AI is involved.
 ---
 
+An ADR is a short document that captures why you made a specific technical decision. Not what you built — your code shows that. Why you chose this approach over the alternatives. When you're working with AI agents that have no memory between sessions, ADRs are the only thing standing between you and re-debating the same decisions every few weeks.
+
 ## When to create an ADR
 
 Create an ADR when:
