@@ -19,7 +19,7 @@ Context lives in files, not in chat history.
 
 ## Quick start
 
-1. Copy the `templates/` folder into your project as `.ai-workflow/`
+1. Copy the `templates/` folder into your project as `ai-workflow/`
 2. Open any AI chat (Claude, ChatGPT, etc.)
 3. Upload the blank templates and describe your project
 4. Let the AI fill them in for you
@@ -41,7 +41,7 @@ See the full walkthrough: **[Quick Start →](https://context-loops.vercel.app/f
 
 ```
 your-project/
-├── .ai-workflow/
+├── ai-workflow/
 │   ├── session-start.md
 │   ├── current-sprint.md
 │   └── tickets/
@@ -71,7 +71,7 @@ Copy `templates/session-contract.md` into your agent's config file:
 
 ## Origin
 
-This framework came from building [Backdrop](https://open.substack.com/pub/earlysignalx/p/ai-lets-you-build-faster-than-you), a crypto intelligence platform built over six months with AI coding agents. 15 sprints, 60+ tickets, real bugs, real cost overruns, and one credential leak. The framework is what survived.
+This framework came from building [Backdrop](https://backdropxyz.vercel.app/), a crypto intelligence platform built over six months with AI coding agents. 15 sprints, 60+ tickets, real bugs, real cost overruns, and one credential leak. The framework is what survived.
 
 ## License
 
