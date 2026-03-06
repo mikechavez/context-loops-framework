@@ -232,7 +232,7 @@ export default function WorkflowDiagram() {
   const nodes = [
     { title: "Your Files", files: ["session-start.md", "current-sprint.md"] },
     { title: "Planning Chat", sub: "Claude · ChatGPT · any web AI" },
-    { title: "Ticket", files: ["TICKET-001.md"], sub: "one task, ordered in the sprint" },
+    { title: "Ticket", files: ["TASK-001.md"], sub: "one task, ordered in the sprint" },
     { title: "Coding Agent", sub: "Claude Code · Cursor · Codex" },
     { title: "Updated Files", files: ["session-start.md", "current-sprint.md"], foot: "✓ ready for next session" },
   ];
