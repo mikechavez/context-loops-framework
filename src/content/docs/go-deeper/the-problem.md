@@ -3,6 +3,10 @@ title: The Problem
 description: What cognitive debt is, how to spot it, and what it costs you.
 ---
 
+AI coding agents let you ship fast. You can go from idea to working feature in a single session. But at some point, something breaks — and you open your own codebase and realize you can't explain how half of it works. You approved every change. You merged every diff. But you never really understood what was being built, because the agent was moving faster than you could follow.
+
+That's the problem this page is about. There's a name for it.
+
 ## What is cognitive debt?
 
 When you build with AI agents, you can ship features in hours that would have taken days. But speed creates a gap: the distance between what you've built and what you understand about what you've built.
