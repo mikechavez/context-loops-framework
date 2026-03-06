@@ -56,6 +56,7 @@ export default defineConfig({
           label: 'Context Engineering',
           items: [
             { label: 'The Problem', slug: 'go-deeper/the-problem' },
+            { label: 'Design Philosophy', slug: 'go-deeper/design-philosophy' },
             { label: 'Tickets', slug: 'go-deeper/tickets' },
             { label: 'Sessions', slug: 'go-deeper/sessions' },
             { label: 'Sprints', slug: 'go-deeper/sprints' },
