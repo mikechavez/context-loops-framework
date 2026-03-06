@@ -3,6 +3,8 @@ title: Model Selection
 description: Why you use different models for planning and execution — and it's not about cost.
 ---
 
+Most people pick one AI model and use it for everything. This page explains why that's a mistake — and why splitting planning and execution across different model tiers gives you better results and fewer surprises.
+
 ## This is about containment, not cost
 
 LLMs are probabilistic by nature. The distinction that matters for this system isn't randomness — it's capacity.

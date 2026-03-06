@@ -3,6 +3,8 @@ title: Sessions
 description: How to start, run, and end sessions — plus the five rules that hold it all together.
 ---
 
+A session is one working conversation with your AI agent — start to finish. It could be 30 minutes or 3 hours. What matters isn't the length, it's the structure: every session starts by loading context, works on one ticket, and ends by updating your files so the next session doesn't start blind.
+
 ## Starting a session
 
 Every session starts the same way:

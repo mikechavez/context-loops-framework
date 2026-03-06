@@ -3,6 +3,8 @@ title: Tickets
 description: When to create them, how to keep them small, and why scope discipline matters.
 ---
 
+A ticket is a single unit of work — one task, one bug, one feature — scoped small enough to finish in a single session. It tells your agent exactly what to build, which files to touch, and how to know it's done. Without tickets, your agent improvises. With them, every change is intentional and traceable.
+
 ## When to create a new ticket
 
 Create a new ticket when:
