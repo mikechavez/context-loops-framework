@@ -34,11 +34,7 @@ A good ticket should be something you can review in full after the agent complet
 
 ## Keep documents short
 
-This one's backed by research. LLM performance degrades as input length increases — even when the model can perfectly retrieve the relevant information. Studies across frontier models found performance drops of 13.9% to 85% as input length grew, with multi-hop reasoning degrading the fastest.
-
-Every line of irrelevant context in a ticket is noise that makes the agent's output worse. Keep tickets focused on one problem. Keep sprint docs at summary level. Keep session-start as a pointer to other documents, not a container for all context.
-
-There's no magic line count. But the principle is clear: the less an agent has to read, the better it performs on what matters.
+See [Design Philosophy](/docs/go-deeper/design-philosophy/) for why shorter documents produce better results and how to apply this principle to tickets, sprint docs, session-start, and ADRs.
 
 ## What every ticket needs
 
