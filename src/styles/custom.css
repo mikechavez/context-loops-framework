@@ -1,7 +1,7 @@
 /* Context Loops — Custom Styles */
 
 :root {
-  --sl-font: 'system-ui', '-apple-system', 'Segoe UI', sans-serif;
+  --sl-font: 'Outfit', 'system-ui', '-apple-system', 'Segoe UI', sans-serif;
   --sl-font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
   --sl-color-accent-low: #1a2332;
   --sl-color-accent: #4ade80;

@@ -1,8 +1,8 @@
 ## AI Workflow — Session Contract
 
 ### Session Start
-1. Read `.ai-workflow/session-start.md` to understand current state
-2. Read `.ai-workflow/current-sprint.md` for full sprint context
+1. Read `ai-workflow/session-start.md` to understand current state
+2. Read `ai-workflow/current-sprint.md` for full sprint context
 3. Read the ticket file referenced as next priority in session-start
 4. Confirm understanding of the ticket before beginning work
 
@@ -15,11 +15,11 @@
 
 ### Session End
 - Update the ticket status (complete / in progress / blocked)
-- Update `.ai-workflow/session-start.md`:
+- Update `ai-workflow/session-start.md`:
   - Move completed work to "Recently Completed"
   - Set the next priority
   - Note any new blockers or bugs discovered
-- Update `.ai-workflow/current-sprint.md` with changed ticket statuses
+- Update `ai-workflow/current-sprint.md` with changed ticket statuses
 - All context file updates should be committed alongside code changes
 
 ### Architecture Decisions
