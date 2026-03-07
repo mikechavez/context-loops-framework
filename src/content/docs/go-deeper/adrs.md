@@ -25,15 +25,15 @@ The instinct to over-document is just as real as the instinct to under-document.
 
 ## Why ADRs matter more with AI
 
-Agents have no memory between sessions. Neither do you, after enough time passes.
+AI tools don't exercise judgment about your architecture. They generate suggestions by combining training data with whatever context you give them in the moment. When that context doesn't include the reasoning behind your decisions, the model fills the gap with generic best practices. Suggestions that can be perfectly reasonable in general and completely wrong for your system.
 
-Here's what happens without ADRs: you tested a cheaper model for briefings. It hallucinated despite extensive prompt engineering. You upgraded to a more expensive model and moved on. Three weeks later, your agent — or a new collaborator, or future-you — looks at the bill and says "why are we using the expensive model? Let's switch to the cheap one."
+Here's what that looks like: you evaluated two approaches, ran into a dealbreaker with one, and chose the other for specific reasons. Weeks later, your agent looks at the system and suggests the approach you already rejected. It never knew why you made that call. Without the reasoning on record, nothing stops anyone from reopening settled decisions, re-running experiments that already failed, or optimizing for something you intentionally deprioritized.
 
-Without the ADR, you re-run the experiment. You waste time. You might even ship the regression.
+ADRs prevent that. When the reasoning is documented (what you tested, what failed, what tradeoffs you accepted), the agent reads it and works within those constraints. Decisions stay settled. Work moves forward.
 
-With the ADR, the reasoning is right there: here's what we tested, here's what failed, here's the evidence. Decision settled. Move on.
+This gets more important as you delegate more to AI. Every unsupervised session is a chance for the agent to contradict a design constraint it doesn't know exists. ADRs are constraints that keep AI-generated suggestions aligned with decisions it has no independent basis to evaluate.
 
-ADRs prevent relitigating settled decisions. They're not bureaucracy — they're decision memory for systems that have none.
+Even if future AI systems have perfect memory across sessions, they still won't know what tradeoffs your team made, what experiments already failed, or what non-obvious constraints shaped your architecture. Only documentation provides that.
 
 ## What makes a good ADR
 
