@@ -51,4 +51,4 @@ You don't need to document everything retroactively. Focus on decisions that sti
 
 When you set up the system on an existing project, your planning agent will likely suggest backfill candidates based on what you describe. Start with the big ones: database, infrastructure, primary data sources, monolith vs. services. Even a short ADR is better than none.
 
-See [real ADR examples](/go-deeper/real-examples/) from a production project for what these look like in practice.
+See [real ADR examples](/context-engineering/real-examples/) from a production project for what these look like in practice.

@@ -53,7 +53,7 @@ You have cognitive debt if:
 
 - **Your costs spiraled before you noticed.** API bills, infrastructure costs, or token usage grew without you understanding what was driving them.
 
-If any of this sounds familiar, Context Loops is your solution — and you can start addressing it today. → [**Run Your First Session**](/first-session/)
+If any of this sounds familiar, Context Loops is your solution — and you can start addressing it today. → [**Run Your First Session**](/quick-start/)
 
 ## What it actually costs
 
@@ -72,4 +72,4 @@ It starts with a simple loop that records everything around your work with AI �
 
 Context Loops gives you a system that makes every AI session start informed and end clean — so nothing important lives only in a chat thread that will disappear.
 
-→ [**Start your first session**](/first-session/)
+→ [**Start your first session**](/quick-start/)

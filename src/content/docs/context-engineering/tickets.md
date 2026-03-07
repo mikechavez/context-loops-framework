@@ -13,7 +13,7 @@ Create a new ticket when:
 - **A bug shows up while you're working on something else.** Stop. File it. Decide whether it blocks the current work or goes to backlog. Don't fix it inline and forget to document it.
 - **Scope creeps during implementation.** The moment you think "while I'm in here, I should also..." — that's a new ticket.
 
-Tickets are how future-you and your agent know what was done and why. An undocumented change can lead to [cognitive debt](/docs/go-deeper/the-problem).
+Tickets are how future-you and your agent know what was done and why. An undocumented change can lead to [cognitive debt](/docs/context-engineering/the-problem).
 
 ## When to expand an existing ticket
 
@@ -36,7 +36,7 @@ A good ticket should be something you can review in full after the agent complet
 
 ## Keep documents short
 
-See [Design Philosophy](/docs/go-deeper/design-philosophy/) for why shorter documents produce better results and how to apply this principle to tickets, sprint docs, session-start, and ADRs.
+See [Design Philosophy](/docs/context-engineering/design-philosophy/) for why shorter documents produce better results and how to apply this principle to tickets, sprint docs, session-start, and ADRs.
 
 ## What every ticket needs
 
