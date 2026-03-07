@@ -25,7 +25,7 @@ Context lives in files, not in chat history.
 4. Let the AI fill them in for you
 5. Start building
 
-See the full walkthrough: **[Quick Start →](https://context-loops.vercel.app/first-session/)**
+See the full walkthrough: **[Quick Start →](https://context-loops.vercel.app/quick-start/)**
 
 ## Templates
 
@@ -62,16 +62,17 @@ Copy `templates/session-contract.md` into your agent's config file:
 - **Cursor** → `.cursorrules`
 - **Windsurf** → `.windsurfrules`
 - **Copilot** → `.github/copilot-instructions.md`
+- **Codex** → `AGENTS.md`
 
 ## Learn more
 
 - [Context Loops](https://context-loops.vercel.app/) — How the system works
-- [Quick Start](https://context-loops.vercel.app/first-session/) — 10-minute walkthrough
-- [Context Engineering](https://context-loops.vercel.app/go-deeper/the-problem/) — Tickets, ADRs, sessions, sprints, model selection, real examples
+- [Quick Start](https://context-loops.vercel.app/quick-start/) — 10-minute walkthrough
+- [Context Engineering](https://context-loops.vercel.app/context-engineering/the-problem/) — Tickets, ADRs, sessions, sprints, model selection, real examples
 
 ## Origin
 
-This framework came from building [Backdrop](https://backdropxyz.vercel.app/), a crypto intelligence platform built over six months with AI coding agents. 15 sprints, 60+ tickets, real bugs, real cost overruns, and one credential leak. The framework is what survived.
+This framework came from building [Backdrop](https://backdropxyz.vercel.app/), a crypto intelligence platform built over eight months with AI coding agents. 15+ sprints, 100+ tickets, real bugs, real cost overruns, and one credential leak. The framework is what survived.
 
 ## License
 

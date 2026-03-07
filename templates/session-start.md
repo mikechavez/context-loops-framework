@@ -37,6 +37,6 @@ _Links to deployed app, docs, repos, etc._
 
 ## Files
 
-- Sprint doc: `.ai-workflow/current-sprint.md`
-- Tickets: `.ai-workflow/tickets/`
+- Sprint doc: `ai-workflow/current-sprint.md`
+- Tickets: `ai-workflow/tickets/`
 - ADRs: `docs/adr/`
