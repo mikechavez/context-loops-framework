@@ -76,13 +76,28 @@ See [Design Philosophy](/docs/go-deeper/design-philosophy/) for the five core ru
 
 ## Setting up your agent
 
-Each coding agent has its own config file, but the instructions are the same. Here's a session contract you can paste into your agent's config to set expectations from the start.
+Each coding agent has its own config file, but the instructions are the same. Pick your agent below and paste the session contract into its config file to set expectations from the start.
 
-**Claude Code** → `CLAUDE.md` in your project root
-**Cursor** → `.cursorrules` (or `.cursor/rules/*.mdc` for rule-specific files)
-**Windsurf** → `.windsurfrules` (or `.windsurf/rules/*.md` for rule-specific files)
-**Copilot** → `.github/copilot-instructions.md` in your project root
-**Codex** → `AGENTS.md` in your project root
+### Claude Code
+**File:** `CLAUDE.md` in your project root
+
+### Cursor
+**File:** `.cursorrules` in your project root
+(or `.cursor/rules/*.mdc` for rule-specific files)
+
+### Windsurf
+**File:** `.windsurfrules` in your project root
+(or `.windsurf/rules/*.md` for rule-specific files)
+
+### Copilot
+**File:** `.github/copilot-instructions.md` in your project root
+
+### Codex
+**File:** `AGENTS.md` in your project root
+
+### Session Contract
+
+Paste this into your agent's config file:
 
 ```markdown
 ## AI Workflow — Session Contract
