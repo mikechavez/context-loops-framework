@@ -44,11 +44,6 @@ export default defineConfig({
           label: 'Context Loops',
           items: [
             { label: 'Overview', slug: '' },
-          ],
-        },
-        {
-          label: 'Quick Start',
-          items: [
             { label: 'Quick Start', slug: 'first-session' },
           ],
         },
