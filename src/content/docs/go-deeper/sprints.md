@@ -45,3 +45,5 @@ When it's time for a new sprint:
 This should take 15-20 minutes. If it takes longer, your sprint doc has probably drifted from reality — which usually means session-end updates were being skipped.
 
 The key insight here is the same as everywhere else in this system: your planning tool generates and updates these documents for you. You provide the goal and the current state. It produces the structure. You review and commit.
+
+To see what a real sprint doc looks like, check the [real examples](/go-deeper/real-examples). You can grab the [sprint template](https://github.com/mikechavez/context-loops-framework/tree/main/templates) to start your own.
