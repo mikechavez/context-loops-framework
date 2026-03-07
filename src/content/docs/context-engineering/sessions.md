@@ -70,7 +70,7 @@ Planning is cheap. Execution is expensive. An hour of planning often saves three
 
 ## The five rules
 
-See [Design Philosophy](/docs/go-deeper/design-philosophy/) for the five core rules that hold the system together — these rules work across any agent and any tool.
+See [Design Philosophy](/docs/context-engineering/design-philosophy/) for the five core rules that hold the system together — these rules work across any agent and any tool.
 
 ---
 

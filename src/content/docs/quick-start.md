@@ -121,9 +121,9 @@ Keep going. Run 2-3 more sessions with this loop. You'll start to feel it: sessi
 
 When you're ready, explore the Context Engineering section:
 
-- **[Tickets](/go-deeper/tickets/)** — When to create them, how to keep them small, why scope discipline changes everything
-- **[ADRs](/go-deeper/adrs/)** — How to record decisions so your AI (and future you) never relitigates them
-- **[Sessions](/go-deeper/sessions/)** — Start/stop rituals, when to switch between planning and building
-- **[Sprints](/go-deeper/sprints/)** — How to group work, transition between goals, handle discovered work
-- **[Model Selection](/go-deeper/model-selection/)** — Which AI to use for which task, and why it matters
-- **[Real Examples](/go-deeper/real-examples/)** — Annotated sprint, ADR, and session-start files from a production project
+- **[Tickets](/context-engineering/tickets/)** — When to create them, how to keep them small, why scope discipline changes everything
+- **[ADRs](/context-engineering/adrs/)** — How to record decisions so your AI (and future you) never relitigates them
+- **[Sessions](/context-engineering/sessions/)** — Start/stop rituals, when to switch between planning and building
+- **[Sprints](/context-engineering/sprints/)** — How to group work, transition between goals, handle discovered work
+- **[Model Selection](/context-engineering/model-selection/)** — Which AI to use for which task, and why it matters
+- **[Real Examples](/context-engineering/real-examples/)** — Annotated sprint, ADR, and session-start files from a production project
