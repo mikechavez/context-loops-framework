@@ -3,7 +3,7 @@ title: Real Examples
 description: Annotated files from a production project — not demos, not templates.
 ---
 
-These are real files from building Backdrop, a crypto intelligence platform. They've been sanitized but not polished. This is what the system looks like after months of daily use.
+These are real files from building [Backdrop](https://backdropxyz.vercel.app/), a crypto intelligence platform (read the [case study](https://open.substack.com/pub/earlysignalx/p/ai-lets-you-build-faster-than-you)). They've been sanitized but not polished. This is what the system looks like after months of daily use.
 
 ---
 
@@ -172,6 +172,56 @@ Entity articles: <1s warm (from 48s)
 ```
 
 This one's unusually detailed for an ADR because of the phased implementation. For a multi-phase performance fix, the execution history is part of the decision record.
+
+---
+
+## A real ticket
+
+This is from the Backdrop build. Tickets are the most frequently created file — every fix, feature, and discovery becomes one.
+
+```markdown
+---
+ticket_id: TASK-019
+title: Make Substack CTAs More Visible
+priority: medium
+severity: low
+status: COMPLETE
+date_created: 2026-02-25
+effort_estimate: 0.5 hr
+---
+
+# TASK-019: Make Substack CTAs More Visible
+
+## Problem Statement
+
+Reader feedback after publication: The interactive companion links were invisible when skimming. Two CTAs for the interactive companion were buried in body copy without visual prominence.
+
+---
+
+## Task
+
+1. Find both interactive companion CTAs in the Substack article
+2. Bold them and clean up surrounding copy
+3. Test on mobile (Substack reader layout)
+
+---
+
+## Verification
+
+- [ ] Both CTAs are visually distinct (bold)
+- [ ] Copy flows naturally with bolding
+- [ ] Mobile rendering looks good in Substack app
+
+---
+
+## Acceptance Criteria
+
+- [ ] Interactive companion CTAs bolded
+- [ ] Copy edited for clarity
+- [ ] Deployed to Substack and tested
+```
+
+**What to notice:** This ticket came from reader feedback *after* publication — not from planning. It was discovered during the sprint, documented immediately with the same format as planned work, and prioritized against existing tasks. The effort is small (0.5 hr) because the problem statement is specific and actionable. Whoever picks this up (you or an AI agent) knows exactly what changed, why it matters, and how to verify it's done.
 
 ---
 
