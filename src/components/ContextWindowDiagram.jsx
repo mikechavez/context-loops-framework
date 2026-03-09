@@ -66,7 +66,7 @@ export default function ContextWindowDiagram() {
         padding: "32px",
         borderRadius: "12px",
         maxWidth: "720px",
-        margin: "0 auto",
+        margin: "32px auto 0",
         border: "1px solid #21262d",
       }}
     >
@@ -112,20 +112,23 @@ export default function ContextWindowDiagram() {
         style={{
           display: "flex",
           marginBottom: "6px",
-          fontSize: "10px",
+          fontSize: "11px",
           textTransform: "uppercase",
           letterSpacing: "1.5px",
+          fontWeight: "600",
           color: "#8b949e",
           userSelect: "none",
+          height: "24px",
+          alignItems: "flex-end",
         }}
       >
         <div
           style={{
             width: `${overheadWidth}%`,
             textAlign: "center",
-            borderBottom: "1px solid #30363d",
-            paddingBottom: "4px",
-            marginRight: "1px",
+            borderBottom: "2px solid #30363d",
+            paddingBottom: "6px",
+            boxSizing: "border-box",
           }}
         >
           overhead
@@ -134,9 +137,9 @@ export default function ContextWindowDiagram() {
           style={{
             width: `${usableWidth}%`,
             textAlign: "center",
-            borderBottom: "1px solid #30363d",
-            paddingBottom: "4px",
-            marginLeft: "1px",
+            borderBottom: "2px solid #30363d",
+            paddingBottom: "6px",
+            boxSizing: "border-box",
           }}
         >
           usable
@@ -200,11 +203,12 @@ export default function ContextWindowDiagram() {
               {widthPercent > 8 && (
                 <span
                   style={{
-                    fontSize: "12px",
-                    fontWeight: "600",
-                    color: isUsable ? "#0ea5e9" : "#c9d1d9",
-                    textShadow: "0 1px 3px rgba(0,0,0,0.6)",
+                    fontSize: "13px",
+                    fontWeight: "700",
+                    color: isUsable ? "#0ea5e9" : "#f0f6fc",
+                    textShadow: "0 2px 4px rgba(0,0,0,0.8)",
                     userSelect: "none",
+                    letterSpacing: "0.3px",
                   }}
                 >
                   {formatTokens(seg.tokens)}
@@ -310,6 +314,7 @@ export default function ContextWindowDiagram() {
             <div
               key={i}
               onMouseEnter={() => setHoveredIndex(i)}
+              onMouseLeave={() => setHoveredIndex(null)}
               onClick={() =>
                 setSelectedIndex(selectedIndex === i ? null : i)
               }
