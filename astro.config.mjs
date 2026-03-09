@@ -38,6 +38,20 @@ export default defineConfig({
             href: 'https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap',
           },
         },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image',
+            content: '/og-image.png',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:card',
+            content: 'summary_large_image',
+          },
+        },
       ],
       sidebar: [
         {
