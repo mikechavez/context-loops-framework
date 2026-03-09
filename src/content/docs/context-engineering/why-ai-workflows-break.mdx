@@ -3,6 +3,8 @@ title: Why AI Workflows Break
 description: Understanding context window mechanics and why workflows degrade when AI tools can't remember your project.
 ---
 
+import ContextWindowDiagram from "../../../components/ContextWindowDiagram.jsx";
+
 Every AI coding session starts the same way: with a model that has no idea what you've been building.
 
 It doesn't matter which tool you use. Claude Code, Cursor, Copilot, Codex. The model behind it has no memory of your last session. No awareness of the architectural decisions you made last week. This is a fundamental constraint of how large language models work. Not a bug in the tooling, and not a gap that the next update will fix.
@@ -18,6 +20,8 @@ Today's frontier models advertise context windows of 200K tokens, some up to 1 m
 When you paste a file into a conversation, that file gets tokenized and loaded into the context window. When the model responds, those output tokens go into the window too. When you follow up with another message, the model re-reads the entire conversation from the top (every previous message, every previous response) plus your new input. The window fills in both directions: your input pushes tokens in, and the model's own output pushes tokens in right alongside it.
 
 This means a 200K token context window isn't 200K tokens of *your* content. It's 200K tokens shared between everything: your input, the model's output, system prompts, tool calls, file contents, and the full conversation history up to that point. A single 3,000-line source file can consume ~40K tokens once parsed. Add system prompts, tool metadata, and a few rounds of conversation history, and the usable window shrinks fast.
+
+<ContextWindowDiagram />
 
 When the window fills up, most tools either silently truncate older messages, attempt to summarize history, or simply end the session. In every case the result is the same: the model loses access to context it previously had, and it has no way to know what it's missing.
 
