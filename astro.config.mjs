@@ -44,6 +44,7 @@ export default defineConfig({
           label: 'Context Loops',
           items: [
             { label: 'Overview', slug: '' },
+            { label: 'Why this System?', slug: 'why-this-system' },
             { label: 'Quick Start', slug: 'quick-start' },
           ],
         },

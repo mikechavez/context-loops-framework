@@ -1,0 +1,40 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Border -->
+  <rect x="0" y="0" width="1200" height="630" fill="none" stroke="rgba(148, 163, 184, 0.05)" stroke-width="2"/>
+
+  <!-- Main title -->
+  <text x="600" y="200" font-family="'Outfit', -apple-system, sans-serif" font-size="72" font-weight="600" text-anchor="middle" fill="#f1f5f9" letter-spacing="-0.01em">
+    Context Loops
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="270" font-family="'DM Mono', monospace" font-size="28" text-anchor="middle" fill="#4ade80" letter-spacing="0.08em">
+    THREE FILES. ONE LOOP.
+  </text>
+
+  <!-- Description -->
+  <text x="600" y="360" font-family="'Outfit', -apple-system, sans-serif" font-size="24" text-anchor="middle" fill="#e2e8f0">
+    Your AI forgets everything between conversations.
+  </text>
+  <text x="600" y="405" font-family="'Outfit', -apple-system, sans-serif" font-size="24" text-anchor="middle" fill="#e2e8f0">
+    Context Loops gives it persistent memory.
+  </text>
+
+  <!-- Bottom accent line -->
+  <line x1="300" y1="480" x2="900" y2="480" stroke="#4ade80" stroke-width="2" opacity="0.3"/>
+
+  <!-- URL -->
+  <text x="600" y="570" font-family="'DM Mono', monospace" font-size="18" text-anchor="middle" fill="#8b9bb4">
+    context-loops.vercel.app
+  </text>
+</svg>
