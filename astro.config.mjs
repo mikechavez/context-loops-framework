@@ -44,6 +44,7 @@ export default defineConfig({
           label: 'Context Loops',
           items: [
             { label: 'Overview', slug: '' },
+            { label: 'Why this System?', slug: 'why-this-system' },
             { label: 'Quick Start', slug: 'quick-start' },
           ],
         },
@@ -51,6 +52,7 @@ export default defineConfig({
           label: 'Context Engineering',
           items: [
             { label: 'The Problem', slug: 'context-engineering/the-problem' },
+            { label: 'Why AI Workflows Break', slug: 'context-engineering/why-ai-workflows-break' },
             { label: 'Design Philosophy', slug: 'context-engineering/design-philosophy' },
             { label: 'Tickets', slug: 'context-engineering/tickets' },
             { label: 'Sessions', slug: 'context-engineering/sessions' },
