@@ -208,27 +208,27 @@ export default function WorkflowDiagram() {
       <style>{`
         .wf-flow {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
         }
         .wf-node {
-          width: 168px;
-          max-width: 168px;
+          width: 100%;
+          max-width: 300px;
         }
-        .wf-arrow-h { display: flex !important; }
-        .wf-arrow-v { display: none !important; }
+        .wf-arrow-h { display: none !important; }
+        .wf-arrow-v { display: flex !important; }
 
-        @media (max-width: 840px) {
+        @media (min-width: 841px) {
           .wf-flow {
-            flex-direction: column;
+            flex-direction: row;
           }
           .wf-node {
-            width: 100%;
-            max-width: 300px;
+            width: 168px;
+            max-width: 168px;
           }
-          .wf-arrow-h { display: none !important; }
-          .wf-arrow-v { display: flex !important; }
+          .wf-arrow-h { display: flex !important; }
+          .wf-arrow-v { display: none !important; }
         }
       `}</style>
 
