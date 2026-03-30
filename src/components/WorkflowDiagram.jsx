@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { React, useEffect, useState } from "react";
 
 const NODES = [
   { title: "Your Files", files: ["session-start.md", "current-sprint.md"] },
