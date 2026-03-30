@@ -254,10 +254,10 @@ export default function WorkflowDiagram() {
       >
         <div className="wf-flow">
           {NODES.map((node, i) => (
-            <React.Fragment key={i}>
-              <Node {...node} active={i === active} />
-              {i < EDGES.length && <Arrow label={EDGES[i]} active={i === active} />}
-            </React.Fragment>
+            <>
+              <Node key={`node-${i}`} {...node} active={i === active} />
+              {i < EDGES.length && <Arrow key={`arrow-${i}`} label={EDGES[i]} active={i === active} />}
+            </>
           ))}
         </div>
 
