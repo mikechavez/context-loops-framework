@@ -248,8 +248,7 @@ export default function WorkflowDiagram() {
           {NODES.map((node, i) => (
             <div
               key={i}
-              className="wf-flow"
-              style={{ gap: 0 }}
+              style={{ display: "flex", alignItems: "center", gap: 0 }}
             >
               <Node {...node} active={i === active} />
               {i < EDGES.length && <Arrow label={EDGES[i]} active={i === active} />}
