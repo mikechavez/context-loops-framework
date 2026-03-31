@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { React, useEffect, useState } from "react";
 
 const NODES = [
   { title: "Your Files", files: ["session-start.md", "current-sprint.md"] },
@@ -41,7 +41,6 @@ function Node({ title, sub, foot, files, active }) {
         transform: active ? "scale(1.03)" : "scale(1)",
         transition: "all 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
         textAlign: "center",
-        flexShrink: 0,
       }}
     >
       {title && (
@@ -99,7 +98,7 @@ function Arrow({ label, active }) {
   const textColor = active ? "#4ade80" : "#475569";
 
   return (
-    <div className="wf-arrow" style={{ flexShrink: 0 }}>
+    <div className="wf-arrow">
       {/* Horizontal arrow (desktop) */}
       <div
         className="wf-arrow-h"
@@ -211,6 +210,7 @@ export default function WorkflowDiagram() {
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          gap: 0;
         }
         .wf-node {
           width: 100%;
@@ -222,10 +222,18 @@ export default function WorkflowDiagram() {
         @media (min-width: 841px) {
           .wf-flow {
             flex-direction: row;
+            align-items: center;
+            justify-content: center;
           }
           .wf-node {
             width: 168px;
             max-width: 168px;
+            flex: 1 1 168px;
+            min-width: 0;
+          }
+          .wf-arrow {
+            flex: 0 1 64px;
+            min-width: 40px;
           }
           .wf-arrow-h { display: flex !important; }
           .wf-arrow-v { display: none !important; }
@@ -246,13 +254,10 @@ export default function WorkflowDiagram() {
       >
         <div className="wf-flow">
           {NODES.map((node, i) => (
-            <div
-              key={i}
-              style={{ display: "flex", alignItems: "center", gap: 0 }}
-            >
-              <Node {...node} active={i === active} />
-              {i < EDGES.length && <Arrow label={EDGES[i]} active={i === active} />}
-            </div>
+            <>
+              <Node key={`node-${i}`} {...node} active={i === active} />
+              {i < EDGES.length && <Arrow key={`arrow-${i}`} label={EDGES[i]} active={i === active} />}
+            </>
           ))}
         </div>
 
