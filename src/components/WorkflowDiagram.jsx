@@ -219,25 +219,7 @@ export default function WorkflowDiagram() {
         .wf-arrow-h { display: none !important; }
         .wf-arrow-v { display: flex !important; }
 
-        @media (min-width: 841px) {
-          .wf-flow {
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-          }
-          .wf-node {
-            width: 168px;
-            max-width: 168px;
-            flex: 1 1 168px;
-            min-width: 0;
-          }
-          .wf-arrow {
-            flex: 0 1 64px;
-            min-width: 40px;
-          }
-          .wf-arrow-h { display: flex !important; }
-          .wf-arrow-v { display: none !important; }
-        }
+
       `}</style>
 
       <div
